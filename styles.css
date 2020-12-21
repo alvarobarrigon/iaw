@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Source+Sans+Pro:wght@400;700&display=swap');
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+    background: url("img/fondo.jpg") #1b2529 fixed center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Merriweather',serif;
+    font-size: 2em;
+    font-style: italic;
+}
+div{
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    background: url("img/abajo-1.png") no-repeat blue;
+    width: 50px;
+}
+div:hover{
+    background: url("img/abajo-2.png") no-repeat;
+}
+nav{
+    background-color: #474b50;
+    color: white;
+    width: 900px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+li:hover{
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    color: black;
+    width: 900px;
+    margin: auto;
+}
+table{
+    max-width: 900px;
+}
+table img{
+    width: 100%;
+}
+td{
+    width: 400px;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+figcaption{
+    font-family: 'Merriweather', serif;
+    font-size: 0.5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+form{
+
+    background-color: #cad1ce;
+    color: black;
+    margin: auto;
+    width: 900px;
+    text-align: left;
+}
+form h1{
+    text-align: center;
+}
+fieldset{
+    border: 1px solid black;
+}
