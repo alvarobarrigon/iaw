@@ -4,18 +4,19 @@
     <title>Proyecto Navidad 2020</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="action.js">
+    <link rel="shortcut icon" href="img/navidad-gorro-1.png">
 </head>
 <body>
 <header>
 <h1>Viajes Bosco</h1>
 <h2>Las mejores aventuras por todo elmundo gestionadas por tu propio centro educativo</h2>
 <div>
-    <a href=""><br></a>
+    <a href="#nav" id="abajo"><img src="img/abajo-1.png" alt="flechaAbajo"></a>
 </div>
 </header>
 
 <main>
-    <nav>
+    <nav id="nav">
         <ul>
             <li><a href="#introduccion">Introducci&oacute;n</a></li>
             <li><a href="#india">India</a></li>
@@ -67,27 +68,30 @@
     <form action="#" method="post">
         <h1>Env&iacute;o de datos</h1>
         <label for="nombre">Nombre</label><br>
-        <input type="text" name="nombre" id="nombre"><br>
+        <input type="text" name="nombre" id="nombre" size="20px"><br>
         <label for="apellidos">Apellidos</label><br>
         <input type="text" name="apellidos" id="apellidos"><br>
         <label for="email">Email</label><br>
         <input type="email" name="email" id="email"><br>
-        <fiedset>
+        <fieldset>
             <legend>Viajes destacados</legend>
-        <input type="checkbox" name="india" id="india">
+        <input type="checkbox" name="india" id="but.india">
         <label for="india">India</label>
-        <input type="checkbox" name="mexico" id="mexico">
+        <input type="checkbox" name="mexico" id="but.mexico">
         <label for="mexico">M&eacute;xico</label>
-        <input type="checkbox" name="nuevazelanda" id="nuevazelanda">
-        <label for="india">Nueva Zelanda</label>
-        <input type="checkbox" name="peru" id="peru">
+        <input type="checkbox" name="nuevazelanda" id="but.nuevazelanda">
+        <label for="nuevazelanda">Nueva Zelanda</label>
+        <input type="checkbox" name="peru" id="but.peru">
         <label for="peru">Peru</label>
-        <input type="checkbox" name="islandia" id="islandia">
+        <input type="checkbox" name="islandia" id="but.islandia">
         <label for="islandia">Islandia</label>
-        <input type="checkbox" name="japon" id="japon">
+        <input type="checkbox" name="japon" id="but.japon">
         <label for="japon">Jap&oacute;n</label>
-        </fiedset>
+        </fieldset>
+        <button>ENVIAR</button>
     </form>
 </main>
 </body>
+<script type="text/javascript" src="action.js">
+</script>
 </html>
