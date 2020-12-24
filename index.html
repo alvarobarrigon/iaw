@@ -27,7 +27,16 @@
             <li><a href="#japon">Jap&oacute;n</a></li>
         </ul>
     </nav>
-    <table>
+    <table id="viaje">
+        <tr>
+            <th colspan="2" id="introduccion">No sue&ntilde;es, vuela de verdad</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <figcaption>Tenemos los mejores aviones hacia destinos de todo el planeta.
+                S&oacute;lo dinos d&oacute;nde quieres ir</figcaption>
+                <img src="img/viaje.jpg" alt="aeropuerto"></td>
+        </tr>
         <tr>
             <td id="india">INDIA</td>
             <td id="mexico">MEXICO</td>
@@ -65,31 +74,64 @@
             </td>
         </tr>
     </table>
+
     <form action="#" method="post">
-        <h1>Env&iacute;o de datos</h1>
-        <label for="nombre">Nombre</label><br>
-        <input type="text" name="nombre" id="nombre" size="20px"><br>
-        <label for="apellidos">Apellidos</label><br>
-        <input type="text" name="apellidos" id="apellidos"><br>
-        <label for="email">Email</label><br>
-        <input type="email" name="email" id="email"><br>
-        <fieldset>
-            <legend>Viajes destacados</legend>
-        <input type="checkbox" name="india" id="but.india">
-        <label for="india">India</label>
-        <input type="checkbox" name="mexico" id="but.mexico">
-        <label for="mexico">M&eacute;xico</label>
-        <input type="checkbox" name="nuevazelanda" id="but.nuevazelanda">
-        <label for="nuevazelanda">Nueva Zelanda</label>
-        <input type="checkbox" name="peru" id="but.peru">
-        <label for="peru">Peru</label>
-        <input type="checkbox" name="islandia" id="but.islandia">
-        <label for="islandia">Islandia</label>
-        <input type="checkbox" name="japon" id="but.japon">
-        <label for="japon">Jap&oacute;n</label>
-        </fieldset>
-        <button>ENVIAR</button>
-    </form>
+    <table id="form">
+        <tr>
+            <th colspan="2">Env&iacute;o de datos</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="user">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre" size="20px"><br>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="user">
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" name="apellidos" id="apellidos"><br>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="user">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"><br>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="viajes">
+                    <legend>Viajes destacados</legend>
+                    <input type="checkbox" name="india" id="but.india">
+                    <label for="india">India</label>
+                    <input type="checkbox" name="mexico" id="but.mexico">
+                    <label for="mexico">M&eacute;xico</label>
+                    <input type="checkbox" name="nuevazelanda" id="but.nuevazelanda">
+                    <label for="nuevazelanda">Nueva Zelanda</label>
+                    <input type="checkbox" name="peru" id="but.peru">
+                    <label for="peru">Peru</label>
+                    <input type="checkbox" name="islandia" id="but.islandia">
+                    <label for="islandia">Islandia</label>
+                    <input type="checkbox" name="japon" id="but.japon">
+                    <label for="japon">Jap&oacute;n</label>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>ENVIAR</button>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+
+</table>
+</form>
 </main>
 </body>
 <script type="text/javascript" src="action.js">

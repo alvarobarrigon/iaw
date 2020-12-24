@@ -18,20 +18,18 @@ h2{
     font-family: 'Merriweather',serif;
     font-size: 2em;
     font-style: italic;
+    font-weight: lighter;
 }
 div{
     position: relative;
     left: 50%;
-    background: url("img/abajo-1.png") no-repeat;
     width: 50px;
     margin-bottom: 100px;
 }
 div:hover{
     background: url("img/abajo-2.png") no-repeat;
 }
-a#abajo{
-    transition: 1s;
-}
+
 nav{
     background-color: #474b50;
     color: white;
@@ -64,45 +62,59 @@ main{
     max-width: 900px;
     margin: auto;
 }
-table{
+#viaje table{
     max-width: 900px;
 }
 table img{
     width: 100%;
 }
-td{
+#viaje td,th{
     width: 400px;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    padding: 40px;
+    text-transform: uppercase;
+}
+#viaje td,th{
+    padding: 20px 40px;
 }
 figcaption{
     font-family: 'Merriweather', serif;
     font-size: 0.5em;
     font-style: italic;
     font-weight: lighter;
+    text-transform: none;
 }
 form{
-
     background-color: #cad1ce;
     color: black;
-    width: 900px;
+    width: 820px;
     text-align: left;
     margin-bottom: 300px;
-}
-form h1{
-    text-align: center;
-}
-fieldset{
-    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 0 40px;
 }
 .arriba{
     position: fixed;
     top: 0;
     padding-top: -10px;
 }
-[type="text"],[type="email"]{
-    border: 1px solid #888d8b;
 
+
+[type="text"],[type="email"],fieldset,button{
+    border: 1px solid #888d8b;
+    background: none;
+    outline: none;
+    width: 820px;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+#form table{
+    color: red;
+}
+#form th{
+    font-weight: bold;
+}
+#form table{
+    border: none;
 }
