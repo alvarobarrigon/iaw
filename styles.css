@@ -20,16 +20,16 @@ h2{
     font-style: italic;
     font-weight: lighter;
 }
-div{
-    position: relative;
-    left: 50%;
-    width: 50px;
+img{
+    margin: auto;
+    display: block;
+}
+div {
     margin-bottom: 100px;
 }
-div:hover{
+img:hover{
     background: url("img/abajo-2.png") no-repeat;
 }
-
 nav{
     background-color: #474b50;
     color: white;
@@ -84,7 +84,13 @@ figcaption{
     font-style: italic;
     font-weight: lighter;
     text-transform: none;
+    padding-top: 10px;
 }
+.arriba{
+    position: fixed;
+    top: 0;
+}
+
 form{
     background-color: #cad1ce;
     color: black;
@@ -94,27 +100,6 @@ form{
     text-transform: uppercase;
     padding: 0 40px;
 }
-.arriba{
-    position: fixed;
-    top: 0;
-    padding-top: -10px;
-}
-
-
-[type="text"],[type="email"],fieldset,button{
-    border: 1px solid #888d8b;
-    background: none;
-    outline: none;
-    width: 820px;
-    margin: 10px 0;
-    font-size: 0.8em;
-}
-#form table{
-    color: red;
-}
-#form th{
-    font-weight: bold;
-}
-#form table{
-    border: none;
+th form{
+    text-align: center;
 }
