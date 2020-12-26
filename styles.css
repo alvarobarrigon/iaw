@@ -58,15 +58,17 @@ a{
 main{
     background-color: white;
     color: black;
-    width: auto;
-    max-width: 900px;
+    width: 900px;
     margin: auto;
 }
-#viaje table{
-    max-width: 900px;
+table{
+    width: 900px;
+}
+#aeropuerto{
+    width: 820px;
 }
 table img{
-    width: 100%;
+    width: 370px; /*900-40-80-40*/
 }
 #viaje td,th{
     width: 400px;
@@ -75,8 +77,8 @@ table img{
     text-align: center;
     text-transform: uppercase;
 }
-#viaje td,th{
-    padding: 20px 40px;
+#viaje th{
+    padding-top: 10px;
 }
 figcaption{
     font-family: 'Merriweather', serif;
@@ -84,22 +86,62 @@ figcaption{
     font-style: italic;
     font-weight: lighter;
     text-transform: none;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .arriba{
     position: fixed;
     top: 0;
 }
-
 form{
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #cad1ce;
-    color: black;
+    color: #484b50;
     width: 820px;
     text-align: left;
     margin-bottom: 300px;
     text-transform: uppercase;
     padding: 0 40px;
 }
-th form{
+form table{
+    margin: auto;
+    display: block;
+}
+form th{
+    color: black;
     text-align: center;
+    width: 100%;
+}
+fieldset{
+    border: 1px solid #888d8b;
+    width: 794px;
+}
+.user input{
+    border: 1px solid #888d8b;
+    background-color: transparent;
+    color: #484b50;
+    padding: 10px;
+    width: 800px;
+    outline: none;
+}
+button{
+    color: #484b50;
+    border: 1px solid #484b50;
+    padding: 10px;
+    width: 50%;
+    background-color: transparent;
+    margin: 10px 0;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #4096a5;
+}
+input,label{
+    margin: 10px 0;
+}
+form th{
+    padding: 10px;
+}
+[type="checkbox"]{
+    margin: 10px;
 }
