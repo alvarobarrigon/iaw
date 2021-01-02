@@ -11,12 +11,15 @@
 <h1>Viajes Bosco</h1>
 <h2>Las mejores aventuras por todo elmundo gestionadas por tu propio centro educativo</h2>
 <div class="abajo">
-    <a href="#nav" id="abajo"><img src="img/abajo-1.png" alt="flechaAbajo"></a>
+    <a href="#nav"><img src="img/abajo-1.png" alt="flechaAbajo" id="abajo"
+                        onmouseover="this.src='img/abajo-2.png'"
+                        onmouseout="this.src='img/abajo-1.png'">
+    </a>
 </div>
 </header>
 
 <main>
-    <nav id="nav">
+    <nav id="nav" class="nav">
         <ul>
             <li><a href="#introduccion">Introducci&oacute;n</a></li>
             <li><a href="#india">India</a></li>
@@ -41,56 +44,44 @@
             </td>
         </tr>
         <tr>
-            <td id="india">INDIA</td>
-            <td id="mexico">MEXICO</td>
-        </tr>
-        <tr>
-            <td>
+            <td id="india" class="india">INDIA
                 <figure>
-                <img src="img/india.jpg" alt="india">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/india.jpg" alt="india">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
-            <td>
+            <td id="mexico" class="mexico">MEXICO
                 <figure>
-                <img src="img/mexico.jpg" alt="mexico">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/mexico.jpg" alt="mexico">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
         </tr>
         <tr>
-            <td id="nuevazelanda">NUEVA ZELANDA</td>
-            <td id="peru">PERU</td>
-        </tr>
-        <tr>
-            <td>
+            <td id="nuevazelanda" class="nuevazelanda">NUEVA ZELANDA
                 <figure>
-                <img src="img/nuevazelanda.jpg" alt="nuevazelanda">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/nuevazelanda.jpg" alt="nuevazelanda">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
-            <td>
+            <td id="peru" class="peru">PER&Uacute;
                 <figure>
-                <img src="img/peru.jpg" alt="oeru">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/peru.jpg" alt="peru">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
         </tr>
         <tr>
-            <td id="islandia">ISLANDIA</td>
-            <td id="japon">JAPON</td>
-        </tr>
-        <tr>
-            <td>
+            <td id="islandia" class="islandia">ISLANDIA
                 <figure>
-                <img src="img/islandia.jpg" alt="islandia">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/islandia.jpg" alt="islandia">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
-            <td>
+            <td id="japon" class="japon">JAP&Oacute;N
                 <figure>
-                <img src="img/japon.jpg" alt="japon">
-                <figcaption>Haz click para elegir este destino</figcaption>
+                    <img src="img/japon.jpg" alt="japon">
+                    <figcaption>Haz click para elegir este destino</figcaption>
                 </figure>
             </td>
         </tr>
@@ -148,7 +139,6 @@
 </table>
 </form>
 </main>
+<script type="text/javascript" src="action.js"></script>
 </body>
-<script type="text/javascript" src="action.js">
-</script>
 </html>

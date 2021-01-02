@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 header{
-    padding-top: 16.5%;
+    padding-top: 16.7%;
 }
 h1{
     font-size: 5em;
@@ -27,9 +27,6 @@ img{
 div {
     margin-bottom: 100px;
 }
-img:hover{
-    background: url("img/abajo-2.png") no-repeat;
-}
 nav{
     background-color: #474b50;
     color: white;
@@ -38,20 +35,20 @@ nav{
     text-transform: uppercase;
     text-align: center;
 }
-ul{
+.nav ul{
     list-style-type: none;
     text-align: center;
     padding: 15px;
 }
-li{
+.nav li{
     display: inline;
     padding: 15px;
 }
-li:hover{
+.nav li:hover{
     background-color: black;
     height: 100px;
 }
-a{
+.nav a{
     color: white;
     text-decoration: none;
 }
@@ -71,11 +68,12 @@ table img{
     width: 370px; /*900-40-80-40*/
 }
 #viaje td,th{
-    width: 400px;
+    width: 300px;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    margin: auto;
 }
 #viaje th{
     padding-top: 10px;
@@ -91,6 +89,23 @@ figcaption{
 .arriba{
     position: fixed;
     top: 0;
+}
+.arriba ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0 15px;
+}
+.arriba li{
+    display: inline;
+    padding: 15px;
+}
+.arriba li:hover{
+    background-color: black;
+    height: 100px;
+}
+.arriba a{
+    color: white;
+    text-decoration: none;
 }
 form{
     font-family: 'Source Sans Pro', sans-serif;
