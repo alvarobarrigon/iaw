@@ -27,9 +27,6 @@ img{
 div {
     margin-bottom: 100px;
 }
-img:hover{
-    background: url("img/abajo-2.png") no-repeat;
-}
 nav{
     background-color: #474b50;
     color: white;
@@ -71,11 +68,12 @@ table img{
     width: 370px; /*900-40-80-40*/
 }
 #viaje td,th{
-    width: 400px;
+    width: 300px;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    margin: auto;
 }
 #viaje th{
     padding-top: 10px;
@@ -161,10 +159,4 @@ form th{
 }
 [type="checkbox"]{
     margin: 10px;
-}
-.india {
-    background-color: #f8e0b9;
-}
-.india figure{
-    padding-top: -2px;
 }
