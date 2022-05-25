@@ -1,0 +1,138 @@
+body{
+    font-family: 'Verdana','Arial',sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #505050;
+    color: #505050;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+header div{
+    background-color: #a8a8a8;
+    display: block;
+    margin: auto;
+}
+header button{
+    color: #e96a53;
+    outline: none;
+    border: 1px solid #e96a53;
+    border-radius: 20px;
+    width: 50%;
+    background-color: transparent;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+header button:hover{
+    background-color: #e96a53;
+    color: #404040;
+}
+main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("img/fondo.png") #404040 center center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+section {
+    width: 33.33%;
+    height: 100%;
+    border-left: 1px solid white;
+}
+main h1{
+    font-size: 2em;
+    margin: 50px 10px 0 50px;
+}
+main small {
+    color: #e96a53;
+    font-size: 0.5em;
+    margin-right: 10px;
+}
+cite{
+    color: #e96a53;
+    font-size: 0.5em;
+
+}
+#js{
+    position: fixed;
+    left: 0;
+    background: url("img/javascript.png") no-repeat bottom;
+    background-size: contain;
+}
+#ph{
+    position: fixed;
+    left: 33.33%;
+    background: url("img/python.png") no-repeat bottom;
+    background-size: contain;
+}
+#java{
+    position: fixed;
+    left: 66.66%;
+    background: url("img/java.png") no-repeat bottom;
+    background-size: contain;
+}
+#abajo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+#ojo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+aside{
+    cursor: pointer;
+}
+aside:hover{
+    background-color: #e96a53;
+}
+section div{
+    margin: 1em 10px 0 80px;
+}
+section h2{
+    color: #999999;
+    font-size: 2em;
+}
+
+section a{
+    color: #999999;
+    text-decoration: none;
+}
+section p{
+    font-size: 1.5em;
+}
+section blockquote{
+    font-size: 1.5em;
+    color: #e96a53;
+    font-style: italic;
+}
+strong{
+    color: #e96a53;
+}
+.contenido{
+    font-family: 'Arial',sans-serif;
+    display: none;
+}
+.mostrar{
+    display: block;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Países</title>
+</head>
+<body>
+<header>
+<h1>Países que has visitado</h1>
+</header>
+<nav>
+    <h2>Visibiliza los paises que has visitado</h2>
+
+    <input type="checkbox" id="alemania" name="alemania" value="Alemania" checked>
+    <label for="alemania">Alemania</label><br>
+    <input type="checkbox" id="belgica" name="belgica" value="Bélgica" checked>
+    <label for="belgica">Bélgica</label><br>
+    <input type="checkbox" id="francia" name="francia" value="Francia" checked>
+    <label for="francia">Francia</label><br>
+    <input type="checkbox" id="grecia" name="grecia" value="Grecia" checked>
+    <label for="grecia">Grecia</label><br>
+    <input type="checkbox" id="irlanda" name="irlanda" value="Irlanda" checked>
+    <label for="irlanda">Irlanda</label><br>
+    <input type="checkbox" id="italia" name="italia" value="Italia" checked>
+    <label for="italia">Italia</label><br>
+    <input type="checkbox" id="luxemburgo" name="luxemburgo" value="Luxemburgo" checked>
+    <label for="luxemburgo">Luxemburgo</label><br>
+    <input type="checkbox" id="paisesBajos" name="paisesBajos" value="Paises Bajos" checked>
+    <label for="paisesBajos">Paises Bajos</label><br>
+    <input type="checkbox" id="portugal" name="portugal" value="Portugal" checked>
+    <label for="portugal">Portugal</label><br>
+    <input type="checkbox" id="reinoUnido" name="reinoUnido" value="Reino Unido" checked>
+    <label for="reinoUnido">Reino Unido</label><br>
+    <button id="mostrar">Mostrar todos</button>
+    <button id="ocultar">Ocultar todos</button>
+
+</nav>
+<main>
+    <article id="calemania" class="caja" data-pais="alemania"><p>Alemania</p></article>
+    <article id="cbelgica" class="caja" data-pais="belgica"><p>Bélgica</p></article>
+    <article id="cfrancia" class="caja" data-pais="francia"><p>Francia</p></article>
+    <article id="cgrecia" class="caja" data-pais="grecia"><p>Grecia</p></article>
+</main>
+
+<script src="js/jquery.js"></script>
+<script src="js/action2.js"></script>
+</body>
+</html>

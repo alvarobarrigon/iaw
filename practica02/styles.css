@@ -1,0 +1,56 @@
+body{
+    background: url("img/fondo.png");
+    font-family: 'Arial',sans-serif;
+}
+div{
+    display: none;
+}
+h1,small{
+    font-family: 'Verdana','Arial',sans-serif;
+    text-align: center;
+}
+h1{
+    color: #cc9d00;
+}
+small{
+    color: #d3d3d3;
+}
+button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 2px solid #aeadad;
+    color: #aeadad;
+    background: none;
+    cursor: pointer;
+}
+a{
+    color: #36718f;
+}
+a:hover{
+    color: #ffc400;
+    text-decoration: none;
+}
+h2 ,h3{
+    color: #aeadad;
+    background: url("img/flecha.png") #f0efed no-repeat;
+    padding-left: 30px;
+    cursor: pointer;
+}
+h3{
+    margin-left: 30px;
+}
+p{
+    margin-left: 60px;
+}
+strong{
+    color: #735300;
+}
+em{
+    color: #1ab188;
+    font-style: normal;
+}
+.click{
+    background: url("img/flecha2.png") #ffc400 no-repeat left !important;
+    color: #36718f;
+}

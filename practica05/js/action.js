@@ -1,0 +1,26 @@
+$(function () {
+    $("#bt1").on("click",(e)=>{
+        $("header").css({"display":"none"})
+        $("main").css({"display":"block"})
+    })
+    $("section").on("mouseenter",(e)=>{
+        $(e.currentTarget).css({
+            "background-color":"#422721",
+            "transition":"1s"
+        })
+        $(e.currentTarget).find(".contenido").css({"display":"block"})
+    })
+    $("section").on("mouseleave",(e)=>{
+        $(e.currentTarget).css({
+            "background-color":"transparent",
+            "transition":"1s"
+        })
+        $(".contenido").css({"display":"none"})
+    })
+    $("#ojo").on("click",(e)=>{
+        $(".contenido").toggle()
+    })
+    $("#abajo").on("change",(e)=>{
+        $("main").slideUp("slow")
+    })
+})
