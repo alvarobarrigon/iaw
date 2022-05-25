@@ -1,0 +1,74 @@
+*{
+    font-size: 1em;
+    font-family: sans-serif;
+}
+main{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    overflow: auto;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+button{
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#aplicar{
+    background-color: blue;
+}
+#aplicar:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#borrar{
+    background-color: red;
+}
+#borrar:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#ordenar{
+    background-color: green;
+}
+#ordenar:hover{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+div{
+    height: 400px;
+    width: 400px;
+    background-color: #c8b699;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    margin: 1em;
+}
+h1{
+    background-color: white;
+    color: gray;
+    margin: 0;
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1em;
+}

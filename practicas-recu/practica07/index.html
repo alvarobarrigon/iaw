@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector de colores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Selector de colores</h1>
+    <section id="secTono">
+        <label for="tono">Tono</label><br>
+        <input type="range" id="tono" name="tono" min="0" max="360" class="range"><br>
+        <span>180</span>
+    </section>
+    <section id="secSaturacion">
+        <label for="saturacion">Saturación</label><br>
+        <input type="range" id="saturacion" name="saturacion" min="0" max="100" class="range"><br>
+        <span>50%</span>
+    </section>
+    <section id="secLuminosidad">
+        <label for="luminosidad">Luminosidad</label><br>
+        <input type="range" id="luminosidad" name="luminosidad" min="0" max="100" class="range"><br>
+        <span>50%</span>
+    </section>
+
+</header>
+<main></main>
+<footer>
+    <h1>Colores favoritos <button id="borrar">Borrar Todos</button></h1>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/action.js"></script>
+</body>
+</html>

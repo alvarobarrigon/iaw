@@ -1,0 +1,39 @@
+body{
+    font-family: Arial,sans-serif;
+}
+button{
+    width: 300px;
+    box-sizing: content-box;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    outline: none;
+    border: none;
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.verde{
+    background-color: #2e4f4f;
+}
+.rojo{
+    background-color: #7d2e43;
+}
+input {
+    border-radius: 5px;
+    padding: 1em;
+    outline: none;
+    box-sizing: content-box;
+    width: 300px;
+    margin: 1em 0;
+    border: 1px solid #2e4f4f;
+}
+#fallo{
+    background-color: #f6aaa3;
+}
+#acierto{
+    background-color: #a3f6a3;
+}
+h1{
+    font-size: 2em;
+}

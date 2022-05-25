@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script src="aleatorio.js"></script>
+<script>
+    let pensado = aleatorio(1,1000);
+    let numero;
+    let again;
+    for (numero =! pensado;;) {
+        numero = prompt("Adivina el número que estoy pensando");
+        if (numero == undefined) {
+            alert("El juego ha terminado")
+            break;
+        }else if (numero>1000 || numero<1){
+            alert("Debe escribir un numero entre 1 y 1000")
+        }
+        else {
+            if (numero < pensado) {
+                alert("El numero es mayor")
+            } else if (numero > pensado) {
+                alert("El numero es menor")
+            } else if (numero == pensado) {
+                alert("Has acertado!!")
+                again = prompt("Quieres jugar de nuevo? y/n")
+                if (again == "y") {
+                    alert("Comencemos de nuevo")
+                    pensado = aleatorio(1,1000);
+                } else {
+                    alert("El juego ha terminado")
+                    break;
+                }
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

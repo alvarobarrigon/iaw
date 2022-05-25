@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script src="aleatorio.js"></script>
+<script>
+    let pensado = aleatorio(1,1000);
+    let numero;
+    for (numero =! pensado;;){
+        numero = prompt("Adivina el número que estoy pensando");
+        if (numero < pensado){
+            alert("El numero es mayor")
+        }else if(numero > pensado){
+            alert("El numero es menor")
+        }else if(numero == pensado){
+            alert("Has acertado!!")
+            break;
+        }
+    }
+</script>
+</body>
+</html>

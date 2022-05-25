@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana,sans-serif;
+}
+h1{
+    color: #cc9100;
+    text-align: center;
+}
+h2:hover,h3:hover{
+    outline: 5px solid #cc9100;
+}
+h2,h3{
+    color: #aeadad;
+    background: url("img/flecha.png") #f0efed no-repeat left;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+h3{
+    margin-left: 30px;
+}
+h4{
+    color: #735300;
+    margin-left: 60px;
+}
+span{
+    color: black;
+}
+.click{
+    color: #4d4d4d;
+    background: url("img/flecha2.png") #ffc400 no-repeat left;
+}
+.contenido{
+    display: block;
+}
+div{
+    display: none;
+}

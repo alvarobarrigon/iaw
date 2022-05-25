@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jornadas de Seguridad</title>
+    <style>
+        img{
+            height: 500px;
+        }
+        th{
+            text-align: center;
+        }
+        p{
+            display: inline-block;
+            margin: 0;
+        }
+        #direccionBosco p{
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            display: block;
+        }
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <form action="http://jorgesanchez.net/practicas/iaw/practicaR01/recogida.php" method="get">
+    <table>
+        <tr>
+            <th colspan="2">
+                <h1>Registro de asistentes a las Jornadas de Seguridad</h1>
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="3"><img src="cartel.jpg" alt="cartel"></td>
+            <td>
+                    <label for="dni">DNI <small>*</small></label>
+                    <input type="text" id="dni" name="dni" required pattern="[0-9]{8}[A-Za-z]{1}" maxlength="9" placeholder="12345678A"><br>
+                    <label for="nombre">Nombre <small>*</small></label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="apellidos">Apellidos <small>*</small></label>
+                    <input type="text" id="apellidos" name="apellidos" required><br>
+                    <label for="nac">Fecha de naciemiento</label>
+                    <input type="date" id="nac" name="fecha">
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <label for="comunidad">Comunidad Atónomoa de procedencia</label>
+                <select name="comunidad" id="comunidad">
+                    <option value="andalucia">Andalucía</option>
+                    <option value="aragon">Aragón</option>
+                    <option value="asturias">Asturias</option>
+                    <option value="islasBaleares">Islas Baleares</option>
+                    <option value="islasCanarias">Islas Canarias</option>
+                    <option value="cantabria">Cantabria</option>
+                    <option value="castillaMancha">Castilla-La Mancha</option>
+                    <option value="castillaLeón">Castilla y León</option>
+                    <option value="cataluña">Cataluña</option>
+                    <option value="comunidadValenciana">Comunidad Valenciana</option>
+                    <option value="extremadura">Extremadura</option>
+                    <option value="galicia">Galicia</option>
+                    <option value="laRioja">La Rioja</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="murcia">Murica</option>
+                    <option value="navarra">Navarra</option>
+                    <option value="paisVasco">País Vasco</option>
+                    <option value="ceuta">Ceuta</option>
+                    <option value="melilla">Melilla</option>
+                </select><br>
+                <fieldset>
+                    <legend>Insitucion de origen</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>Tipo de institución</legend>
+                                    <input type="radio" id="centroEducativo" name="tipo">
+                                    <label for="centroEducativo">Centro Educativo</label><br>
+                                    <input type="radio" id="institucionPublica" name="tipo">
+                                    <label for="institucionPublica">Institución ublica</label><br>
+                                    <input type="radio" id="empresaPrivada" name="tipo">
+                                    <label for="empresaPrivada">Empresa Privada</label><br>
+                                    <input type="radio" id="otros" name="tipo">
+                                    <label for="otros">Otros / Independiente</label><br>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <label for="nombreInstitucion">Nombre de la Insticución</label><br>
+                                <input type="text" id="nombreInstitucion" name="nombreinst"><br>
+                                <label for="direccionInstitucion">Dirección de la Institución</label><br>
+                                <textarea name="dirinst" id="direccionInstitucion" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <p>Enviar datos</p>
+                <button>Enviar</button>
+
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="2" id="direccionBosco">
+                <p>Centro Don Bosco, paseo Don Bosco 1: 34190, Villamuriel de Cerrato</p>
+                <p>Tlfno: 979 77 72 70</p>
+            </td>
+        </tr>
+    </table>
+    </form>
+</main>
+</body>
+</html>

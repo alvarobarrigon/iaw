@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Media de numeros</title>
+</head>
+<body>
+<script>
+    let num
+    let suma=0
+    let i=-1
+    do {
+        num = prompt("Escriba numero enteros (para calcular la media escriba 'fin')")
+        if(!isNaN(num) && num!=null && num!="") {
+            i++
+            suma = parseInt(suma) + parseInt(num)
+            console.log(parseInt(suma))
+        }
+   // }while (num!=123)
+    }while(num!="fin".toUpperCase() && num!="fin" && num!=null)
+    if(num == null){
+        alert("El programa ha finalizado")
+    }else{
+        alert("La suma de los numeros es "+parseInt(suma))
+        alert("Has introducido " + i + " números")
+        alert("La media es: "+parseInt(suma)/i)
+    }
+
+
+</script>
+</body>
+</html>

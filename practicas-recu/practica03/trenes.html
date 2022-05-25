@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trenes</title>
+    <style>
+        table{
+            width: 100%;
+            font-family: sans-serif;
+            border-collapse: collapse;
+        }
+        tr{
+            border-color: inherit;
+        }
+        thead{
+            background-color: #853f28;
+            color: white;
+        }
+        tr:nth-of-type(even){
+            background-color: #f2d4ab;
+        }
+    </style>
+</head>
+<body>
+<script src="lib/datos.js"></script>
+<script>
+    document.write("<table><thead>" +
+        "<tr>" +
+        "<th>Código de tren</th>" +
+        "<th>Tipo</th>" +
+        "<th>Días de salida</th></tr></thead>")
+        document.write("<tbody>")
+    for(dato of datos){
+        document.write("<tr>")
+        document.write("<td>"+dato.cod_tren+"</td>")
+        document.write("<td>"+dato.tipo+"</td>")
+        document.write("<td>"+dato.dias+"</td>")
+        document.write("</tr>")
+    }
+    document.write("</tbody>")
+
+    document.write("</table>")
+</script>
+</body>
+</html>

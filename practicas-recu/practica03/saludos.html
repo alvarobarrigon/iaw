@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Saludos Aleatorios</title>
+</head>
+<body>
+<script src="lib/aleatorios.js"></script>
+<script>
+    saludos=["Hola","Buenas","¿Qué tal estamos?","Bienvenido","Esta es tu casa","¿Que tal te va?",
+        "Buen día","Un gusto saludarle","Que alegria saludarle","Un servidor le saluda (en realidad soy una página web)",
+        "What's up?","¿Todo bien?","¡Hey, que pasa!"]
+    document.write("<h1>"+saludos[aleatorio(0,saludos.length-1)]+"</h1>")
+</script>
+</body>
+</html>
